@@ -46,7 +46,8 @@ body {
     }
 
     .notion-page-icon-hero {
-      left: var(--notion-fullwith-page-left-right-padding);
+      display: none;
+      //left: var(--notion-fullwith-page-left-right-padding);
     }
   }
 
@@ -107,6 +108,7 @@ body {
 
   // 페이지 아이콘
   .notion-page-icon-hero {
+    display:none!important;
     margin-left: 0 !important;
     left: var(--notion-page-left-right-padding);
   }
