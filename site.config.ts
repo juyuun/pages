@@ -9,16 +9,16 @@ export default siteConfig({
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: '2skydev blog',
-  domain: 'blog.2skydev.com',
-  author: '2skydev',
+  name: '마음챙김',
+  domain: 'mindfulrj.vercel.app',
+  author: '이주윤',
 
   // open graph metadata (optional)
-  description: '2skydev blog - developer blog',
+  //description: '2skydev blog - developer blog',
 
   // social usernames (optional)
   // twitter: 'transitive_bs',
-  github: '2skydev',
+  //github: '2skydev',
   // linkedin: 'fisch2',
   // newsletter: '#', // optional newsletter URL
   // youtube: '#', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
@@ -50,18 +50,18 @@ export default siteConfig({
 
   // whether to use the default notion navigation style or a custom one with links to
   // important pages
-  navigationStyle: 'custom',
-  navigationLinks: [
-    {
-      title: '카테고리',
-      pageId: '36400db511474331b5c1de6918212469',
-    },
-    {
-      title: '카테고리',
-      pageId: '36400db511474331b5c1de6918212469',
-      menuPage: true,
-    },
-  ],
+  //navigationStyle: 'custom',
+  //navigationLinks: [
+   // {
+  //    title: '카테고리',
+  //    pageId: '36400db511474331b5c1de6918212469',
+   // },
+  //  {
+   //   title: '카테고리',
+     // pageId: '36400db511474331b5c1de6918212469',
+    //  menuPage: true,
+  //  },
+//  ],
 
   // -------- custom configs (2skydev) -------------
 
