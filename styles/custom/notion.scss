@@ -32,14 +32,10 @@
  */
 body {
   font-size: 16px;
-  transition-duration: 250ms;
-  transition-property: background-color, color;
   -webkit-font-smoothing: antialiased;
 
   .notion {
     font-size: var(--base-font-size);
-    transition-duration: 250ms;
-    transition-property: background-color, color;
   }
 
   .notion-page {
@@ -69,9 +65,7 @@ body {
   .notion-header {
     display:none;
     position: fixed;
-    transition-duration: 250ms;
-    transition-property: background-color, color;
-
+    
     .notion-nav-header {
       max-width: var(--notion-max-width);
     }
@@ -102,7 +96,7 @@ body {
   // 페이지 제목
   .notion-title {
     text-align: left;
-    font-size: 2em;
+    font-size: 2.5em;
   }
 
   // 페이지 메인 이미지 (커버 이미지)
