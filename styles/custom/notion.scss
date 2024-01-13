@@ -43,6 +43,8 @@ body {
 
     .notion-title {
       text-align: left;
+      margin-top:0;
+      padding-top: 0;
     }
 
     .notion-page-icon-hero {
@@ -53,6 +55,7 @@ body {
 
   // 헤더
   .notion-header {
+    display:none;
     position: fixed;
     transition-duration: 250ms;
     transition-property: background-color, color;
