@@ -23,14 +23,6 @@
     'Apple Color Emoji', Arial, sans-serif, 'Segoe UI Emoji', 'Segoe UI Symbol';
 }
 
-.loadingIcon {
-  animation: spinner 0.6s linear infinite;
-  display: block;
-  width: 24px;
-  height: 24px;
-  color: rgba(55, 53, 47, 0.4);
-}
-
 .main {
   display: flex;
   flex-direction: column;
@@ -65,24 +57,9 @@
   user-select: none;
 }
 
-.settings a,
-.social a {
-  cursor: pointer;
-  font-size: 2em;
-  display: inline-flex;
-  padding: 0.25em;
-  margin-right: 1vw;
-  transition: color 250ms ease-out;
-}
-
 .settings a:last-of-type,
 .social a:last-of-type {
   margin-right: 0;
-}
-
-.settings a:hover,
-.social a:hover {
-  transition: color 50ms ease-out;
 }
 
 .toggleDarkMode:hover {
@@ -154,15 +131,10 @@
   margin-right: 1vw;
   border-radius: 50%;
   background: transparent;
-  transition: all 250ms ease-out;
 }
 
 .pageActions a:last-of-type {
   margin-right: 0;
-}
-
-.pageActions a:hover {
-  transition: all 50ms ease-out;
 }
 
 .likeTweet:hover {
@@ -178,25 +150,6 @@
 @media (max-width: 1360px) {
   .githubCorner {
     display: none;
-  }
-}
-
-.githubCorner:hover .octoArm {
-  animation: octocat-wave 560ms ease-in-out;
-}
-
-@keyframes octocat-wave {
-  0%,
-  100% {
-    transform: rotate(0);
-  }
-  20%,
-  60% {
-    transform: rotate(-25deg);
-  }
-  40%,
-  80% {
-    transform: rotate(10deg);
   }
 }
 
